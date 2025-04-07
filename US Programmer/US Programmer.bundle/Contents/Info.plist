@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.keyboardlayout.j1dev-dvorak</string>
+	<string>org.sil.ukelele.keyboardlayout.us-programmer</string>
 	<key>CFBundleName</key>
-	<string>dvorak-programmer-qwerty-v2</string>
+	<string>US Programmer</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
-	<key>KLInfo_Dvorak Programmer V2 – QWERTY ⌘</key>
+	<string>1.0.0</string>
+	<key>KLInfo_US Programmer</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>com.apple.keyboardlayout.j1dev-dvorak.dvorakprogrammerv2–qwerty⌘</string>
+		<string>org.sil.ukelele.keyboardlayout.us-programmer.usprogrammer</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>
