@@ -20,3 +20,19 @@ It's also nice to have the 'US Programmer' QWERTY custom bundle up your sleeve.
 
 ![us-programmer-base-layer](US%20Programmer/us-programmer-base-layer.png)
 ![us-programmer-shift-layer](US%20Programmer/us-programmer-shift-layer.png)
+
+## Notes for bundle icons
+
+1. Prepare a PNG image (ideally 1024x1024).
+2. Create a folder for the icon set e.g. `mkdir icon.iconset`
+3. Create PNGs for all icon sizes
+```
+sips -z 128 128   original.png --out icon.iconset/icon_128x128.png
+sips -z 512 512   original.png --out icon.iconset/icon_512x512.png
+...
+```
+4. use `iconutil` to convert the set to .icns
+```
+iconutil -c icns icon.iconset
+``
+In the same directory you'll get a `icon.icns` to add to the bundle.
